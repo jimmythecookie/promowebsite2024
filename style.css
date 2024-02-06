@@ -1,12 +1,12 @@
 @font-face {
 	font-family: lakersFont;
 	src: url(nba-lakers.ttf);
-}
+}/* this is my font taken from the internet */
 
 body{
 	font-family:lakersFont;
 	background: yellow;
-color:rebeccapurple;
+color:rebeccapurple; /* choosing color of text! */
 
 }
 h1{
@@ -30,28 +30,27 @@ p {
 
 
 #allplayers {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; /* Aligns the top of the columns */
+  display: flex; /*flexible with the pictures
+  justify-content: center; /* make all pictures someone center towards the middle of their side of the website */
+  align-items: flex-start;/* Aligns the top of the columns */
 }
-
 #players img {
-  width: 35%; /* This will make each image take full width of the #players div */
+  width: 35%; /* This will make each image take full width of the #players */
   height: auto; /* To maintain aspect ratio */
-  flex-direction:column;
+  flex-direction:column; /* turned it into a column */
 }
 
 .featuredplayer img {
-  width: 120%; /* Makes the image take the full width of its container */
+  width: 120%; /* Makes the image take the full width */
   height: auto; /* To maintain aspect ratio */
   align-self: start;/* Aligns the featured player image to the top */
 }
 
 figcaption{
-	font-size:120%;
+	font-size:120%; /* caption size for players */
 }
 
-.kingdescription {
+.kingdescription { /* caption size for featured player */
 	color: black;
 	text-align: center;
 	font-size: 100px;
