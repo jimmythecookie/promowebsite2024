@@ -1,0 +1,59 @@
+@font-face {
+	font-family: lakersFont;
+	src: url(nba-lakers.ttf);
+}
+
+body{
+	font-family:lakersFont;
+	background: yellow;
+color:rebeccapurple;
+
+}
+h1{
+	font-size: 300px;
+	text-align: center;
+
+}
+
+p {
+	color: skyblue;
+
+}
+
+
+.toplogo {
+	text-align: center;
+}
+.description{
+	font-size: 100px;
+}
+
+
+#allplayers {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Aligns the top of the columns */
+}
+
+#players img {
+  width: 35%; /* This will make each image take full width of the #players div */
+  height: auto; /* To maintain aspect ratio */
+  flex-direction:column;
+}
+
+.featuredplayer img {
+  width: 120%; /* Makes the image take the full width of its container */
+  height: auto; /* To maintain aspect ratio */
+  align-self: start;/* Aligns the featured player image to the top */
+}
+
+figcaption{
+	font-size:120%;
+}
+
+.kingdescription {
+	color: black;
+	text-align: center;
+	font-size: 100px;
+	margin-bottom: 10px;
+}
